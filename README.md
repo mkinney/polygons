@@ -1,2 +1,2 @@
 # polygons
-Simple Godot to create clickable polygons via code
+Simple Godot project to create clickable polygons via code

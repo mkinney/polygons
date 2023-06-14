@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cs3ljs6l8hs35"]
+
+[ext_resource type="Script" path="res://poly.gd" id="1_m5b8q"]
+
+[node name="poly" type="Polygon2D"]
+script = ExtResource("1_m5b8q")

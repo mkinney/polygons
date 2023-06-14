@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://xybevnw7kkmd"]
+
+[ext_resource type="Script" path="res://polys.gd" id="1_7c6e6"]
+
+[node name="polys" type="Node2D"]
+script = ExtResource("1_7c6e6")

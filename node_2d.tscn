@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c0gh4cpgitx2b"]
+
+[ext_resource type="PackedScene" uid="uid://cs3ljs6l8hs35" path="res://poly.tscn" id="1_g7j56"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="poly" parent="." instance=ExtResource("1_g7j56")]
+position = Vector2(145, 92)

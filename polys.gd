@@ -9,7 +9,8 @@ func _ready():
 	poly1.set_polygon(Array([Vector2(40, 40), Vector2(40, 50), Vector2(50, 50), Vector2(50, 40)]))
 	var coll1 = CollisionPolygon2D.new()
 	coll1.set_polygon(poly1.get_polygon())
-	poly1.poly_entered.connect(poly1_entered)
+	#coll1.mouse_entered.connect(foo3)
+	poly1.poly_entered.connect(poly1_was_entered)
 	add_child(poly1)
 		
 	var poly2 = Poly.new()
@@ -17,11 +18,14 @@ func _ready():
 	poly2.set_color(Color.RED)
 	add_child(poly2)
 
-func poly1_entered():
+func foo3():
+	print("foo3")
+
+func poly1_was_entered():
 	print("woo hoo")
 
 	
 func _input(event):
 	if event.is_pressed():
-		print("hello4")	
+		print("hello4")
 
